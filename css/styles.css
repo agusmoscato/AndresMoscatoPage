@@ -73,6 +73,9 @@ section{
     min-height: 1000px;
 }
 
+.center{
+    text-align: center;
+}
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
@@ -102,6 +105,12 @@ section{
 .header__title{
     font-family: 'Bebas Neue', cursive;
     margin: 10px 25px;
+    color: white;
+    font-size: 50px;
+}
+
+.navbar-brand:focus, .navbar-brand:hover{
+    color: white;
 }
 
 .header__navbar{
@@ -123,7 +132,7 @@ section{
     margin: 10px;
     padding: 10px;
     background-color: rgba(76, 117, 165, 1);
-    
+    color: white;
 }
 
 .navbar__item a {
@@ -149,7 +158,7 @@ section{
 
 }
 
-.active {
+.active-custom {
     height: fit-content;
     
     border-radius: 100px;
@@ -159,42 +168,29 @@ section{
     margin: 10px;
     padding: 10px;
     background-color: white;
+    color: rgba(76, 117, 165, 1);
     
 }
 
-.active a{
+.active-custom a{
     color: rgba(76, 117, 165, 1);
 }
 
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
 
-@media (max-width: 900px){
-    .header{
-        margin: calc(15%);
-        margin-top: 10px;
-    
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 70%;
-        color: white;
-        background-color: rgba(112, 177, 253, 0.38);
-        border-radius: 100px;
-        align-items: center;
-    
-        position: fixed;
-        z-index: 1000;
-    }
+.navbar-toggler{
+    color: rgb(0 0 0 / 0%);
+    border: 0;
+}
 
-
-    .header__navbar{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .header__title {
-        text-align: center;
+@media (max-width: 768px){
+    .header__title{
+        font-size: 25px;
     }
 }
 
@@ -1059,6 +1055,9 @@ section{
 
 .contact--page .main__contact form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .main__contact{
