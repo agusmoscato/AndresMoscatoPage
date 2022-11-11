@@ -682,7 +682,7 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 1000px;
+    height: 100vh;
     color: white;
 
 }
@@ -691,6 +691,7 @@ section{
     display: flex;
     flex-direction: column;
     width: 75%;
+    background-color: rgb(0 0 0 / 13%);
 }
 
 .biography__tittle{
@@ -744,16 +745,16 @@ section{
     .biography--bio {
         display: flex;
         flex-direction: row;
-        width: 75%;
+        width: 100%;
         align-content: center;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 300px;
+        margin-top: 75px;
     }
 
     .biography--bands {
-        display: grid;
+        display: contents;
     }
 
 }
@@ -785,16 +786,6 @@ section{
     
 }
 
-.bands--page article {
-    margin-top: 50px;
-}
-/* 
-.page__bands{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-} */
 
 #bands--page{
     display: grid;
@@ -921,9 +912,6 @@ section{
 
     }
 
-    .bands--page article {
-        margin-top: 300px;
-    }
 
 }
 
@@ -1016,7 +1004,7 @@ section{
     }
 
     .calendar--left{
-        margin-top: 300px;
+        margin-top: 75px;
     }
 
 
@@ -1050,7 +1038,7 @@ section{
 }
 
 .contact--page .main__contact {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .contact--page .main__contact form {
@@ -1085,9 +1073,6 @@ section{
 }
 
 @media (max-width:900px) {
-    .contact--page .main__contact{
-        margin-top: 300px;
-    }
 
     .contact--page{
         height: fit-content;
