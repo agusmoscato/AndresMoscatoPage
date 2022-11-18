@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -56,7 +56,8 @@ html {
     text-align: center;
     transform: translateY(-8px);
     transition: all 0.5s ease;
-}
+} */
+
 .title-sizeL {
     font-size: 60px; 
 }
@@ -69,9 +70,9 @@ html {
     font-size: 40px;
 }
 
-section{
-    min-height: 1000px;
-}
+/* section{
+    min-height: 100vh;
+} */
 
 .center{
     text-align: center;
@@ -82,7 +83,7 @@ section{
 /*----------------------------- HEADER --------------------------------------*/
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
-
+/* 
 .header{
     margin: calc(15%);
     margin-top: 10px;
@@ -109,9 +110,7 @@ section{
     font-size: 50px;
 }
 
-.navbar-brand:focus, .navbar-brand:hover{
-    color: white;
-}
+
 
 .header__navbar{
     margin: 10px 25px;
@@ -120,7 +119,9 @@ section{
     flex-direction: row;
 }
 
-
+.navbar-brand:focus, .navbar-brand:hover{
+    color: white;
+}
 
 .navbar__item {
     height: fit-content;
@@ -194,7 +195,7 @@ section{
     }
 }
 
-
+ */
 
 
 
@@ -205,7 +206,7 @@ section{
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-#videoBG {
+/* #videoBG {
     position:fixed;
     z-index: -1;
 }
@@ -227,7 +228,7 @@ section{
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 
 /*---------------------------------------------------------------------------*/
@@ -237,7 +238,7 @@ section{
 /*---------------------------------------------------------------------------*/
 
 
-#main__biography{
+/* #main__biography{
     display: flex;
     justify-content: flex-end;
 
@@ -271,7 +272,7 @@ section{
         width: 90%;
     }
 
-}
+} */
 
 
 /*---------------------------------------------------------------------------*/
@@ -280,7 +281,7 @@ section{
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
 
-#main__bands {
+/* #main__bands {
     background-color: rgb(0, 0, 0);
     background-image: url(./media/bg-home/BANDS.jpg);
     background-size: cover;
@@ -390,7 +391,7 @@ section{
     
     
 }
-
+ */
 
 
 /*---------------------------------------------------------------------------*/
@@ -400,7 +401,7 @@ section{
 /*---------------------------------------------------------------------------*/
 
 
-#main__calendar {
+/* #main__calendar {
     background-color: rgb(0, 0, 0) ;
     background-image: url(./media/bg-home/CALENDAR.jpg);
 
@@ -504,7 +505,7 @@ section{
     }
 
 }
-
+ */
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
@@ -513,7 +514,7 @@ section{
 /*---------------------------------------------------------------------------*/
 
 
-#main__contact {
+/* #main__contact {
     background-color: rgb(0, 0, 0) ;
     background-image: url(./media/bg-home/CONTACT.jpeg);
 
@@ -594,7 +595,7 @@ section{
     }
 
 }
-
+ */
 
 
 /*---------------------------------------------------------------------------*/
@@ -604,7 +605,7 @@ section{
 /*---------------------------------------------------------------------------*/
 
 
-.footer {
+/* .footer {
     background-color: rgba(68, 103, 143, 1);
     padding: 30px;
 
@@ -648,7 +649,7 @@ section{
     transform: scale(1.5);
     transition: 0.5s;
 }
-
+ */
 
 
 
@@ -667,7 +668,7 @@ section{
 /*---------------------------------------------------------------------------*/
 
 
-#biography--page{
+/* #biography--page{
     background-image: url(../css/media/bg-pages/biography.jpg);
     background-size: cover;
     background-position: center;
@@ -759,7 +760,7 @@ section{
 
 }
 
-
+ */
 
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
@@ -770,7 +771,7 @@ section{
 
 
 
-#bands--page {
+/* #bands--page {
     background-image: url(../css/media/bg-pages/bands.jpg);
     background-size: cover;
     background-position: center;
@@ -836,6 +837,7 @@ section{
     margin: 20px;
     font-size: 20px;
     text-align: center;
+    background-color: $bg_color--p;
     grid-area: description;
 }
 
@@ -913,7 +915,7 @@ section{
     }
 
 
-}
+} */
 
 
 /*---------------------------------------------------------------------------*/
@@ -924,7 +926,7 @@ section{
 
 
 
-.calendar--page{
+/* .calendar--page{
     background-image: url(../css/media/bg-pages/calendar.jpg);
     background-size: cover;
     background-position: center;
@@ -1010,7 +1012,7 @@ section{
 
 }
 
-
+ */
 
 
 /*---------------------------------------------------------------------------*/
@@ -1021,7 +1023,7 @@ section{
 
 
 
-.contact--page{
+/* .contact--page{
     background-image: url(../css/media/bg-pages/contact.jpg);
     background-size: cover;
     background-position: center;
@@ -1077,4 +1079,4 @@ section{
     .contact--page{
         height: fit-content;
     }
-}
+} */

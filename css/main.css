@@ -1,0 +1,650 @@
+/* Variables */
+/* Base */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.title-sizeL {
+  font-size: 60px; }
+
+.title-sizeM {
+  font-size: 50px; }
+
+.title-sizeS {
+  font-size: 40px; }
+
+.center {
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  color: white; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  padding-left: 0;
+  margin: 0; }
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
+section {
+  min-height: 100vh; }
+
+/* Boton */
+.btn {
+  background-color: #4c75a5;
+  color: white;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 100px;
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.5s ease; }
+  .btn:hover {
+    background-color: white;
+    color: #4c75a5;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 25px;
+    text-align: center;
+    transform: translateY(-8px);
+    transition: all 0.5s ease; }
+
+/* Layout */
+/* Header y Footer */
+.header {
+  margin: calc(15%);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+  color: white;
+  background-color: rgba(112, 177, 253, 0.38);
+  box-shadow: 15px 15px 30px #191919, -15px -15px 30px #3c3c3c;
+  border-radius: 100px;
+  align-items: center;
+  position: fixed;
+  z-index: 1000; }
+
+.header__title {
+  font-family: "Bebas Neue", cursive;
+  margin: 10px 25px;
+  color: white;
+  font-size: 50px; }
+
+.header__navbar {
+  margin: 10px 25px;
+  display: flex;
+  height: fit-content;
+  flex-direction: row; }
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color: white; }
+
+.navbar__item {
+  height: fit-content;
+  border-radius: 100px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4c75a5;
+  color: white; }
+  .navbar__item a {
+    color: white; }
+  .navbar__item:hover {
+    height: fit-content;
+    border-radius: 100px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: #4c75a5; }
+  .navbar__item a:hover {
+    color: #4c75a5; }
+
+.active-custom {
+  height: fit-content;
+  border-radius: 100px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  color: #4c75a5; }
+  .active-custom a {
+    color: #4c75a5; }
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center; }
+
+.navbar-toggler {
+  color: white;
+  border: 0; }
+
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 25px; } }
+
+.footer {
+  background-color: #4c75a5;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer_title {
+  color: white; }
+
+.footer_networks {
+  display: flex;
+  justify-content: left; }
+  .footer_networks img {
+    width: 40px;
+    margin: 20px;
+    flex-direction: row; }
+  .footer_networks a:hover {
+    transform: scale(1.5);
+    transition: 0.5s; }
+
+/* All Home */
+#videoBG {
+  position: fixed;
+  z-index: -1; }
+
+#main__home {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+
+.main__home {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+#main__biography {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(./media/bg-home/BIOGRAPHY.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #main__biography div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+
+@media (max-width: 900px) {
+  #main__biography div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%; } }
+
+#main__bands {
+  background-color: black;
+  background-image: url(./media/bg-home/BANDS.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.main__bands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.main__bands--verticalTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%; }
+
+.main__bands__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 30%; }
+
+.main__bands__logo {
+  width: 300px; }
+
+.main__bands__description {
+  width: 50%; }
+
+@media (max-width: 900px) {
+  #main__bands {
+    background-color: black;
+    background-image: url(./media/bg-home/BANDS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center; }
+  .main__bands {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    text-align: center; }
+  .main__bands--verticalTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%; }
+  .main__bands__card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap; }
+  .main__bands__logo {
+    width: 150px; } }
+
+#main__calendar {
+  background-color: black;
+  background-image: url(./media/bg-home/CALENDAR.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.main__calendar {
+  width: 70%;
+  height: 75%;
+  color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-align: center; }
+
+.card__calendar {
+  color: white;
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #4c75a5;
+  border-radius: 100px;
+  width: fit-content; }
+  .date h2 {
+    font-size: 50px; }
+  .date h3 {
+    font-size: 40px; }
+
+.place {
+  padding: 10px 40px;
+  background-color: #4c75a5;
+  width: fit-content; }
+  .place h2 {
+    font-size: 40px; }
+
+@media (max-width: 900px) {
+  .date h2 {
+    font-size: 30px; }
+  .date h3 {
+    font-size: 20px; }
+  .place {
+    padding: 10px 40px;
+    font-size: 30px;
+    background-color: #4c75a5;
+    width: fit-content; } }
+
+#main__contact {
+  background-color: black;
+  background-image: url(./media/bg-home/CONTACT.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.main__contact {
+  width: 50%;
+  height: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+#main__contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main__input {
+  width: 75%;
+  height: 1.5rem;
+  background-color: #a3bcee;
+  border-radius: .5rem;
+  padding: 2em 2em;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  margin-bottom: 20px; }
+
+@media (max-width: 900px) {
+  .main__contact {
+    width: 100%; } }
+
+/* Pages */
+#biography--page {
+  background-image: url(../css/media/bg-pages/biography.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.biography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  color: white; }
+
+.biography--bio {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.13); }
+
+.biography__tittle {
+  font-size: 50px;
+  margin: 40px; }
+
+.biography_description {
+  font-size: 35px;
+  margin: 40px; }
+
+.biography--bands {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  width: 25%;
+  text-align: center; }
+
+.sidebar__bands {
+  background-color: #4c75a5;
+  font-size: 2rem;
+  width: 70%;
+  padding: 2rem;
+  margin-bottom: 10px; }
+  .sidebar__bands a {
+    color: white; }
+
+@media (max-width: 900px) {
+  .biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    color: white; }
+  .biography--bio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 75px; }
+  .biography--bands {
+    display: contents; } }
+
+#bands--page {
+  background-image: url(../css/media/bg-pages/bands.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 1000px; }
+
+.bands--page {
+  display: flex;
+  flex-wrap: wrap; }
+
+#bands--page {
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-template-columns: repeat(4 1fr);
+  grid-row-gap: 70px;
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
+  #bands--page header {
+    grid-area: header; }
+  #bands--page main {
+    grid-area: main; }
+  #bands--page footer {
+    grid-area: footer; }
+
+.page__bands {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas: "title description logo networks"; }
+
+.page__bands__title {
+  font-size: 50px;
+  text-align: center;
+  grid-area: title; }
+
+.page__bands__description {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.13);
+  grid-area: description; }
+
+.page__bands__logo {
+  width: 300px;
+  grid-area: logo; }
+
+.page__bands__networks {
+  grid-area: networks; }
+
+.bands__networks__item img {
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 100%; }
+  .bands__networks__item img:hover {
+    transform: scale(1.2);
+    transition: 0.3s; }
+
+.sidebar__calendar {
+  background-color: #4c75a5;
+  font-size: 35px;
+  width: 15%;
+  padding: 2rem;
+  margin-bottom: 10px; }
+  .sidebar__calendar a {
+    color: white;
+    text-align: center; }
+
+@media (max-width: 900px) {
+  .page__bands {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center; }
+  .page__bands__title {
+    font-size: 50px;
+    width: 90%; }
+  .page__bands__description {
+    margin: 20px;
+    width: 90%;
+    font-size: 20px; }
+  .page__bands__networks {
+    display: flex; }
+  .bands__networks__item {
+    margin: 10px; }
+  .sidebar__calendar {
+    width: 50%; } }
+
+.calendar--page {
+  background-image: url(../css/media/bg-pages/calendar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 100hv;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.card__calendar {
+  color: white;
+  display: flex;
+  margin: 10px; }
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #4c75a5;
+  border-radius: 100px;
+  width: fit-content; }
+  .date h2 {
+    font-size: 50px; }
+  .date h3 {
+    font-size: 40px; }
+
+.place {
+  padding: 10px 40px;
+  font-size: 40px;
+  background-color: #4c75a5;
+  width: fit-content; }
+
+@media (max-width: 900px) {
+  .date h2 {
+    font-size: 30px; }
+  .date h3 {
+    font-size: 20px; }
+  .place {
+    padding: 10px 40px;
+    font-size: 30px;
+    background-color: #4c75a5;
+    width: fit-content; }
+  .calendar--page {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+  .calendar--left {
+    margin-top: 75px; } }
+
+.contact--page {
+  background-image: url(../css/media/bg-pages/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.contact--page .main__contact {
+  margin-top: 50px; }
+
+.contact--page .main__contact form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main__contact {
+  height: max-content;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.main__input {
+  width: 75%;
+  height: 1.5rem;
+  background-color: #a3bcee;
+  border-radius: .5rem;
+  padding: 2em 2em;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  margin-bottom: 20px; }
+
+@media (max-width: 900px) {
+  .contact--page {
+    height: fit-content; } }

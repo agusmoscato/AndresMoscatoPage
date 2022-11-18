@@ -1,0 +1,79 @@
+#biography--page {
+    background-image: url(../css/media/bg-pages/biography.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .biography {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    color: $color-font;
+  }
+  
+  .biography--bio {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: $bg_color--p;
+  }
+  
+  .biography__tittle {
+    font-size: 50px;
+    margin: 40px;
+  }
+  
+  .biography_description {
+    font-size: 35px;
+    margin: 40px;
+  }
+  
+  .biography--bands {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 25%;
+    text-align: center;
+  }
+  
+  .sidebar__bands {
+    background-color: $primary-color;
+    font-size: 2rem;
+    width: 70%;
+    padding: 2rem;
+    margin-bottom: 10px;
+  
+    a {
+      color: $color-font;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .biography {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: max-content;
+      color: $color-font;
+    }
+  
+    .biography--bio {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 75px;
+    }
+  
+    .biography--bands {
+      display: contents;
+    }
+  }

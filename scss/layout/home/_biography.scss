@@ -1,0 +1,28 @@
+#main__biography {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(./media/bg-home/BIOGRAPHY.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  #main__biography div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+}
