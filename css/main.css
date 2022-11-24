@@ -468,7 +468,8 @@ section {
 
 .bands--page {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 50px; }
 
 #bands--page {
   display: grid;
@@ -556,10 +557,11 @@ section {
   background-attachment: fixed;
   color: white;
   height: 100hv;
-  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-around; }
+  .calendar--page .calendar--left, .calendar--page .calendar--rigth {
+    margin-top: 100px; }
 
 .card__calendar {
   color: white;
@@ -619,7 +621,7 @@ section {
   justify-content: space-evenly; }
 
 .contact--page .main__contact {
-  margin-top: 50px; }
+  margin-top: 100px; }
 
 .contact--page .main__contact form {
   width: 100%;
