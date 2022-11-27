@@ -198,6 +198,8 @@ section {
     justify-content: center;
     align-items: center;
     width: 50%; }
+    #main__biography div p {
+      font-size: 25px; }
 
 @media (max-width: 900px) {
   #main__biography div {
@@ -206,7 +208,9 @@ section {
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: 90%; } }
+    width: 90%; }
+    #main__biography div p {
+      font-size: 20px; } }
 
 #main__bands {
   background-color: black;
@@ -410,7 +414,7 @@ section {
   display: flex;
   flex-direction: column;
   width: 75%;
-  background-color: rgba(0, 0, 0, 0.13); }
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .biography__tittle {
   font-size: 50px;
@@ -500,7 +504,7 @@ section {
   margin: 20px;
   font-size: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.13);
+  background-color: rgba(0, 0, 0, 0.2);
   grid-area: description; }
 
 .page__bands__logo {
