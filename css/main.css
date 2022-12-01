@@ -208,9 +208,10 @@ section {
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: 90%; }
+    width: 100%; }
     #main__biography div p {
-      font-size: 20px; } }
+      font-size: 20px;
+      width: 90%; } }
 
 #main__bands {
   background-color: black;
@@ -421,7 +422,7 @@ section {
   margin: 40px; }
 
 .biography_description {
-  font-size: 35px;
+  font-size: 25px;
   margin: 40px; }
 
 .biography--bands {
@@ -598,7 +599,7 @@ section {
   .date h3 {
     font-size: 20px; }
   .place {
-    padding: 10px 40px;
+    padding: 10px 10px;
     font-size: 30px;
     background-color: #4c75a5;
     width: fit-content; }
