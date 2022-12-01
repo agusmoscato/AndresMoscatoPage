@@ -1,10 +1,11 @@
 .footer {
     background-color: $primary-color;
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(./media/bg-home/footer.jpg);
+    background-position-y: bottom;
   }
   
   .footer__container {
@@ -15,6 +16,9 @@
   
   .footer_title {
     color: $color-font;
+    background: #00000075;
+    padding: 5px;
+    border-radius: 5px;
   }
   
   .footer_networks {

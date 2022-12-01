@@ -140,11 +140,12 @@ section {
 
 .footer {
   background-color: #4c75a5;
-  padding: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  background-image: url(./media/bg-home/footer.jpg);
+  background-position-y: bottom; }
 
 .footer__container {
   display: flex;
@@ -152,7 +153,10 @@ section {
   align-items: center; }
 
 .footer_title {
-  color: white; }
+  color: white;
+  background: #00000075;
+  padding: 5px;
+  border-radius: 5px; }
 
 .footer_networks {
   display: flex;
