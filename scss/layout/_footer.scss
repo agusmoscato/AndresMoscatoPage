@@ -6,6 +6,7 @@
     flex-direction: column;
     background-image: url(./media/bg-home/footer.jpg);
     background-position-y: bottom;
+    border-top: 10px solid #000000;
   }
   
   .footer__container {
@@ -36,3 +37,7 @@
       transition: 0.5s;
     }
   }
+
+  .copy {
+    background: #00000075;
+}
