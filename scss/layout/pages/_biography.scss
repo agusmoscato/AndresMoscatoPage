@@ -1,5 +1,5 @@
 #biography--page {
-  background-image: url(../css/media/bg-pages/biography.jpg);
+  background-image: url(../media/bg-pages/biography.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,6 +30,7 @@
 .biography_description {
   font-size: 25px;
   margin: 40px;
+  padding: 5px;
 }
 
 .biography--bands {

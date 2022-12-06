@@ -95,8 +95,8 @@ section {
   border-radius: 100px;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   background-color: #4c75a5;
   color: white; }
   .navbar__item a {
@@ -106,8 +106,8 @@ section {
     border-radius: 100px;
     font-family: "Bebas Neue", cursive;
     font-size: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     background-color: white;
     color: #4c75a5; }
   .navbar__item a:hover {
@@ -118,8 +118,8 @@ section {
   border-radius: 100px;
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   background-color: white;
   color: #4c75a5; }
   .active-custom a {
@@ -151,7 +151,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(./media/bg-home/footer.jpg);
+  background-image: url(../media/bg-home/footer.jpg);
   background-position-y: bottom;
   border-top: 10px solid #000000; }
 
@@ -202,7 +202,7 @@ section {
 #main__biography {
   display: flex;
   justify-content: flex-end;
-  background-image: url(./media/bg-home/BIOGRAPHY.jpg);
+  background-image: url(../media/bg-home/BIOGRAPHY.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -230,7 +230,7 @@ section {
 
 #main__bands {
   background-color: black;
-  background-image: url(./media/bg-home/BANDS.jpg);
+  background-image: url(../media/bg-home/BANDS.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ section {
 @media (max-width: 900px) {
   #main__bands {
     background-color: black;
-    background-image: url(./media/bg-home/BANDS.jpg);
+    background-image: url(../media/bg-home/BANDS.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@ section {
 
 #main__calendar {
   background-color: black;
-  background-image: url(./media/bg-home/CALENDAR.jpg);
+  background-image: url(../media/bg-home/CALENDAR.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -373,7 +373,7 @@ section {
 
 #main__contact {
   background-color: black;
-  background-image: url(./media/bg-home/CONTACT.jpeg);
+  background-image: url(../media/bg-home/CONTACT.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -413,7 +413,7 @@ section {
 
 /* Pages */
 #biography--page {
-  background-image: url(../css/media/bg-pages/biography.jpg);
+  background-image: url(../media/bg-pages/biography.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -430,7 +430,7 @@ section {
   display: flex;
   flex-direction: column;
   width: 75%;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .biography__tittle {
   font-size: 50px;
@@ -438,7 +438,8 @@ section {
 
 .biography_description {
   font-size: 25px;
-  margin: 40px; }
+  margin: 40px;
+  padding: 5px; }
 
 .biography--bands {
   display: flex;
@@ -478,7 +479,7 @@ section {
     display: contents; } }
 
 #bands--page {
-  background-image: url(../css/media/bg-pages/bands.jpg);
+  background-image: url(../media/bg-pages/bands.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -520,7 +521,8 @@ section {
   margin: 20px;
   font-size: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
   grid-area: description; }
 
 .page__bands__logo {
@@ -570,7 +572,7 @@ section {
     width: 50%; } }
 
 .calendar--page {
-  background-image: url(../css/media/bg-pages/calendar.jpg);
+  background-image: url(../media/bg-pages/calendar.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -629,7 +631,7 @@ section {
     margin-top: 75px; } }
 
 .contact--page {
-  background-image: url(../css/media/bg-pages/contact.jpg);
+  background-image: url(../media/bg-pages/contact.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
