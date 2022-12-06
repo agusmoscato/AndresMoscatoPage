@@ -2,28 +2,29 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
-    color: $color-font;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  ol, ul {
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  color: $color-font;
+}
 
-  section{
-    min-height: 100vh;
-  }
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+}

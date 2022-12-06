@@ -1,95 +1,95 @@
 #main__bands {
+  background-color: rgb(0, 0, 0);
+  background-image: url(./media/bg-home/BANDS.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main__bands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main__bands--verticalTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.main__bands__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.main__bands__logo {
+  width: 300px;
+}
+
+.main__bands__description {
+  font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  #main__bands {
     background-color: rgb(0, 0, 0);
     background-image: url(./media/bg-home/BANDS.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color: $color-font;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
   }
-  
+
   .main__bands {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
+    text-align: center;
   }
-  
+
   .main__bands--verticalTitle {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
   }
-  
+
   .main__bands__card {
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
     align-content: center;
-    flex-direction: column;
-    width: 30%;
+    flex-wrap: wrap;
   }
-  
+
   .main__bands__logo {
-    width: 300px;
+    width: 150px;
   }
-  
-  .main__bands__description {
-    font-size: 20px;
-  }
-  
-  @media (max-width: 900px) {
-    #main__bands {
-      background-color: rgb(0, 0, 0);
-      background-image: url(./media/bg-home/BANDS.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: $color-font;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-  
-    .main__bands {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      flex-wrap: wrap-reverse;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .main__bands--verticalTitle {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      align-items: center;
-      height: 100%;
-    }
-  
-    .main__bands__card {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      flex-direction: row;
-      align-items: center;
-      align-content: center;
-      flex-wrap: wrap;
-    }
-  
-    .main__bands__logo {
-      width: 150px;
-    }
-  }
+}

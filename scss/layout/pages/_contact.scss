@@ -1,4 +1,4 @@
-.contact--page{
+.contact--page {
     background-image: url(../css/media/bg-pages/contact.jpg);
     background-size: cover;
     background-position: center;
@@ -23,7 +23,8 @@
     align-items: center;
 
 }
-.main__contact{
+
+.main__contact {
     height: max-content;
 
 
@@ -35,7 +36,7 @@
 }
 
 
-.main__input{
+.main__input {
     width: 75%;
     height: 1.5rem;
 
@@ -49,7 +50,7 @@
 
 @media (max-width:900px) {
 
-    .contact--page{
+    .contact--page {
         height: fit-content;
     }
 }

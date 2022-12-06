@@ -24,7 +24,8 @@
 a {
   text-decoration: none; }
 
-ol, ul {
+ol,
+ul {
   padding-left: 0;
   margin: 0; }
 
@@ -124,7 +125,13 @@ section {
   .active-custom a {
     color: #4c75a5; }
 
-.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
@@ -573,7 +580,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around; }
-  .calendar--page .calendar--left, .calendar--page .calendar--rigth {
+  .calendar--page .calendar--left,
+  .calendar--page .calendar--rigth {
     margin-top: 100px; }
 
 .card__calendar {
