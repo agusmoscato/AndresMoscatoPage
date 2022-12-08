@@ -331,46 +331,6 @@ section {
   flex-wrap: nowrap;
   text-align: center; }
 
-.card__calendar {
-  color: white;
-  display: flex;
-  margin: 10px;
-  width: 100%;
-  justify-content: center;
-  align-items: center; }
-
-.date {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  margin-right: 10px;
-  background-color: #4c75a5;
-  border-radius: 100px;
-  width: fit-content; }
-  .date h2 {
-    font-size: 50px; }
-  .date h3 {
-    font-size: 40px; }
-
-.place {
-  padding: 10px 40px;
-  background-color: #4c75a5;
-  width: fit-content; }
-  .place h2 {
-    font-size: 40px; }
-
-@media (max-width: 900px) {
-  .date h2 {
-    font-size: 30px; }
-  .date h3 {
-    font-size: 20px; }
-  .place {
-    padding: 10px 40px;
-    font-size: 30px;
-    background-color: #4c75a5;
-    width: fit-content; } }
-
 #main__contact {
   background-color: black;
   background-image: url(../media/bg-home/CONTACT.jpeg);
@@ -578,57 +538,40 @@ section {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
-  height: 100hv;
   display: flex;
   align-items: center;
-  justify-content: space-around; }
-  .calendar--page .calendar--left,
-  .calendar--page .calendar--rigth {
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .calendar--page .calendar {
     margin-top: 100px; }
 
 .card__calendar {
   color: white;
   display: flex;
-  margin: 10px; }
+  margin: 10px;
+  justify-content: flex-start; }
 
 .date {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #4c75a5;
-  border-radius: 100px;
-  width: fit-content; }
-  .date h2 {
-    font-size: 50px; }
+  justify-content: center;
+  align-items: center;
+  width: 20%; }
   .date h3 {
-    font-size: 40px; }
+    font-size: 30px; }
 
 .place {
-  padding: 10px 40px;
-  font-size: 40px;
+  padding: 10px;
+  font-size: 30px;
   background-color: #4c75a5;
-  width: fit-content; }
-
-@media (max-width: 900px) {
-  .date h2 {
-    font-size: 30px; }
-  .date h3 {
-    font-size: 20px; }
-  .place {
-    padding: 10px 10px;
-    font-size: 30px;
-    background-color: #4c75a5;
-    width: fit-content; }
-  .calendar--page {
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; }
-  .calendar--left {
-    margin-top: 75px; } }
+  width: 80%;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column; }
 
 .contact--page {
   background-image: url(../media/bg-pages/contact.jpg);
